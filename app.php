@@ -125,7 +125,7 @@ $arr[site_title]="xxxx.xxxx";
 
 	function save_data($arr){
 	
-	//�ǂ̃t�H�[���ɂ����ʂł��肻���ȃf�[�^�͕��ʂ̃t�B�[���h��p�ӂ��Ă����A���Ƃ�jsonencode����jsonencode�Ƃ����t�B�[���h�ɓ���Ă���B
+	//どのフォームにも共通でありそうなデータは普通のフィールドを用意しておき、あとはjsonencodeしてjsonencodeというフィールドに入れている。
 
 	$commonfield=array("fname","lname","affiliation","email","tel","cancel");
 
